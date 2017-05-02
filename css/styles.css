@@ -3,7 +3,9 @@
   margin: 0 auto;
 }
 #selectedWord{
-  margin: 100px 200px 20px 200px;
+  margin: 100px 220px 20px 200px;
+  font-size: 40px;
+
 }
 .topRow{
   margin: 0 200px;
