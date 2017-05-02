@@ -1,0 +1,25 @@
+#container{
+  width: 800px;
+  margin: 0 auto;
+}
+#selectedWord{
+  margin: 100px 200px 20px 200px;
+}
+.topRow{
+  margin: 0 200px;
+}
+.middleRow{
+  margin: 0 220px;
+}
+.lowerRow{
+  margin: 0 237px;
+}
+.key{
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+#gallows{
+  margin: 20px 200px;
+}
