@@ -8,7 +8,7 @@ $(document).ready(function(){
   ]
 
   // the word to guess us chosen from the array above
-  var random = Math.floor((Math.random()*(words.length-1)));
+  var random = Math.floor((Math.random()*(words.length)));
   var randomWord = words[random];
   var selectedWord = document.getElementById("selectedWord");
   var wordLength = randomWord.length;
@@ -47,6 +47,7 @@ $(document).ready(function(){
     }
     //Designates the win state
     if(guess.indexOf('_ ')=== -1){
+      $('.key').off('click');
       console.log('YOU WIN!')
     }
     //Designates the lose state
